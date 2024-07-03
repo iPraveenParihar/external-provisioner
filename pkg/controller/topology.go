@@ -104,7 +104,7 @@ func SupportsTopology(pluginCapabilities rpc.PluginCapabilitySet) bool {
 //
 // This function is called if the topology feature is enabled
 // in the external-provisioner and the CSI driver implements the
-// CSI accessibility capability. It is disabled by default.
+// CSI accessibility capability. It is enabled by default.
 //
 // If enabled, we require that the K8s API server is on at least
 // K8s 1.17 and that the K8s Nodes are on at least K8s 1.15 in
